@@ -1,0 +1,73 @@
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.message {
+  text-align: center;
+  margin-bottom: 16px;
+  color: #007b5e;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 12px;
+  font-weight: 500;
+  color: #555;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 4px;
+  font-size: 1rem;
+}
+
+input:disabled {
+  background-color: #e9ecef;
+}
+
+.editBtn, .saveBtn {
+  margin-top: 24px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.editBtn {
+  background-color: #007bff;
+  color: white;
+}
+
+.saveBtn {
+  background-color: #28a745;
+  color: white;
+}
+
+.editBtn:hover {
+  background-color: #0069d9;
+}
+
+.saveBtn:hover {
+  background-color: #218838;
+}

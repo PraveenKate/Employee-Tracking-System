@@ -1,0 +1,83 @@
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+ 
+  border-radius: 8px;
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+}
+
+.table th,
+.table td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+}
+
+.table thead {
+  background-color: #f4f6f8;
+  font-weight: 600;
+  color: #444;
+}
+
+.pagination {
+  margin-top: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pageButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pageButton:disabled {
+  background-color: #a1c8ff;
+  cursor: not-allowed;
+}
+
+.pageButton:not(:disabled):hover {
+  background-color: #0056b3;
+}
+
+.pageInfo {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.center {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 1.25rem;
+  color: #666;
+}
+
+.error {
+  color: #d9534f;
+}
