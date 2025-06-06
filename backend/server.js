@@ -17,7 +17,7 @@ const app = express();
 
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://employee-tracking-system-y7f7.onrender.com', // Your deployed frontend
+  'https://employee-tracking-system-frontend.onrender.com', // Your deployed frontend
 ];
 
 app.use(cors({
