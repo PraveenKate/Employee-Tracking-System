@@ -20,7 +20,7 @@ const allowedOrigins = [
   'https://employee-tracking-system-frontend.onrender.com', // Your deployed frontend
 ];
 
-app.use(cors({
+app.use(cors({ 
   origin: (origin, callback) => {
     // Allow undefined for Postman or curl
     if (!origin || allowedOrigins.includes(origin)) {
